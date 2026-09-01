@@ -1,3 +1,4 @@
+import { useState } from "react";
 import "./App.css";
 
 function App() {
@@ -18,12 +19,17 @@ function App() {
           <a href="#about">About</a>
 
           <a href="#skills">Skills</a>
+          <a href="#experience">Experience</a>
 
           <a href="#projects">Projects</a>
 
           <a href="#education">Education</a>
+          <a href="#certificates">Certificates</a>
 
+          <a href="#achievements">Achievements</a>
           <a href="#contact">Contact</a>
+
+          
         </div>
       </nav>
 
@@ -236,6 +242,135 @@ function App() {
             <div className="skill-icon">🔗</div>
             <h3>Tools &amp; Platforms</h3>
             <p>Git, GitHub, VS Code, Maven</p>
+          </div>
+        </div>
+      </section>
+
+      {/* Experience Section */}
+      <section id="experience" className="section experience-section">
+        <p className="section-subtitle">MY EXPERIENCE</p>
+
+        <h2 className="section-title">Internship & Experience</h2>
+
+        <p className="experience-intro">
+          My practical experience and hands-on learning through internship and
+          software development training.
+        </p>
+
+        {/* Internship 01 */}
+        <div className="experience-card">
+          <div className="experience-icon">💼</div>
+
+          <div className="experience-content">
+            <div className="experience-top">
+              <div>
+                <span className="experience-duration">
+                  June 2025 – July 2025
+                </span>
+
+                <h3>Java Full Stack Development Intern</h3>
+
+                <h4>Domain Computer Education</h4>
+              </div>
+
+              <span className="experience-badge">Internship</span>
+            </div>
+
+            <p className="experience-description">
+              Completed practical training and internship focused on Java Full
+              Stack Development, gaining hands-on experience in programming
+              concepts, backend technologies, and application development.
+            </p>
+
+            <div className="experience-details">
+              <div>
+                <strong>Technologies</strong>
+
+                <div className="experience-tags">
+                  <span>Core Java</span>
+                  <span>Advanced Java</span>
+                  <span>Spring Core</span>
+                  <span>OOP</span>
+                </div>
+              </div>
+
+              <div className="responsibilities">
+                <strong>Key Learning & Responsibilities</strong>
+
+                <ul>
+                  <li>
+                    Applied Core Java and Object-Oriented Programming concepts.
+                  </li>
+
+                  <li>
+                    Worked with Advanced Java and Spring Core technologies.
+                  </li>
+
+                  <li>
+                    Developed practical applications and strengthened backend
+                    development skills.
+                  </li>
+
+                  <li>
+                    Improved problem-solving and programming skills through
+                    hands-on development.
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* Internship 02 */}
+        <div className="experience-card">
+          <div className="experience-icon">💻</div>
+
+          <div className="experience-content">
+            <div className="experience-top">
+              <div>
+                <span className="experience-duration">
+                  June 2024 – July 2024
+                </span>
+
+                <h3>Java Full Stack Development</h3>
+
+                <h4>TecnoPlus Logic Group</h4>
+              </div>
+
+              <span className="experience-badge">Internship</span>
+            </div>
+
+            <p className="experience-description">
+              Received hands-on training in Object-Oriented Programming, Core
+              Java, and Advance Java, strengthening programming and application
+              development fundamentals.
+            </p>
+
+            <div className="experience-details">
+              <div>
+                <strong>Technologies</strong>
+
+                <div className="experience-tags">
+                  <span>OOPS</span>
+                  <span>Core Java</span>
+                  <span>Advance Java</span>
+                </div>
+              </div>
+
+              <div className="responsibilities">
+                <strong>Key Learning & Responsibilities</strong>
+
+                <ul>
+                  <li>
+                    Received hands-on training in Object-Oriented Programming.
+                  </li>
+
+                  <li>Worked with Core Java programming concepts.</li>
+
+                  <li>Learned and practiced Advance Java concepts.</li>
+                </ul>
+              </div>
+            </div>
           </div>
         </div>
       </section>
@@ -645,8 +780,6 @@ function App() {
                 </div>
               </div>
             </article>
-
-            
           </div>
         </div>
       </section>
@@ -713,6 +846,526 @@ function App() {
                   developing a strong foundation in programming, databases,
                   software development, and computer science concepts.
                 </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Certificates Section */}
+      <section id="certificates" className="section certificates-section">
+        <div className="certificates-container">
+          <p className="section-subtitle">MY CERTIFICATIONS</p>
+
+          <h2 className="section-title">Certificates</h2>
+
+          <p className="certificates-intro">
+            Certifications and learning achievements that reflect my technical
+            knowledge, continuous learning, and professional development.
+          </p>
+
+          <div className="certificates-grid">
+            {/* =====================================================
+          Certificate 1 - DSA with Java
+          ===================================================== */}
+
+            <div className="certificate-card">
+              <div className="certificate-image-wrapper">
+                <img
+                  src="/certificates/dsa-java.png"
+                  alt="DSA with Java Certificate"
+                />
+              </div>
+              <div className="certificate-content">
+                <span className="certificate-category">DSA • Java</span>
+
+                <h3>Alpha — DSA with Java</h3>
+
+                <p>Apna College</p>
+
+                <span className="certificate-year">
+                  Certificate of Completion
+                </span>
+
+                <a
+                  href="/certificates/dsa-java.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="certificate-btn"
+                >
+                  View Certificate ↗
+                </a>
+              </div>
+            </div>
+
+            {/* =====================================================
+          Certificate 2 - Advanced Java
+          ===================================================== */}
+
+            <div className="certificate-card">
+              <div className="certificate-image-wrapper">
+                <img
+                  src="/certificates/mkcl-advanced-java.jpg"
+                  alt="Advanced Java Programming Certificate"
+                />
+              </div>
+
+              <div className="certificate-content">
+                <span className="certificate-category">Java</span>
+
+                <h3>Advanced Java Programming Concepts and Techniques</h3>
+
+                <p>MKCL • Dr. J. J. Magdum College of Engineering</p>
+
+                <span className="certificate-year">2025</span>
+
+                <a
+                  href="/certificates/mkcl-advanced-java.jpg"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="certificate-btn"
+                >
+                  View Certificate ↗
+                </a>
+              </div>
+            </div>
+
+            {/* =====================================================
+          Certificate 3 - Git & GitHub
+          ===================================================== */}
+
+            <div className="certificate-card">
+              <div className="certificate-image-wrapper">
+                <img
+                  src="/certificates/git-github.png"
+                  alt="Git and GitHub Bootcamp Certificate"
+                />
+              </div>
+
+              <div className="certificate-content">
+                <span className="certificate-category">Git • GitHub</span>
+
+                <h3>Git & GitHub Bootcamp</h3>
+
+                <p>LetsUpgrade</p>
+
+                <span className="certificate-year">2025</span>
+
+                <a
+                  href="/certificates/git-github.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="certificate-btn"
+                >
+                  View Certificate ↗
+                </a>
+              </div>
+            </div>
+
+            {/* =====================================================
+          Certificate 4 - CS50 SQL
+          ===================================================== */}
+
+            <div className="certificate-card">
+              <div className="certificate-image-wrapper">
+                <img
+                  src="/certificates/harvard-cs50-sql.png"
+                  alt="Harvard CS50 SQL Certificate"
+                />
+              </div>
+
+              <div className="certificate-content">
+                <span className="certificate-category">SQL • Database</span>
+
+                <h3>CS50's Introduction to Databases with SQL</h3>
+
+                <p>Harvard University • CS50</p>
+
+                <span className="certificate-year">2025</span>
+
+                <a
+                  href="/certificates/harvard-cs50-sql.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="certificate-btn"
+                >
+                  View Certificate ↗
+                </a>
+              </div>
+            </div>
+
+            {/* =====================================================
+          Certificate 5 - HTML
+          ===================================================== */}
+
+            <div className="certificate-card">
+              <div className="certificate-image-wrapper">
+                <img
+                  src="/certificates/knowledgegate-html.png"
+                  alt="HTML Certification Certificate"
+                />
+              </div>
+
+              <div className="certificate-content">
+                <span className="certificate-category">HTML</span>
+
+                <h3>HTML Certification Test — YouTube Course</h3>
+
+                <p>KnowledgeGate</p>
+
+                <span className="certificate-year">
+                  Certificate of Completion
+                </span>
+
+                <a
+                  href="/certificates/knowledgegate-html.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="certificate-btn"
+                >
+                  View Certificate ↗
+                </a>
+              </div>
+            </div>
+
+            {/* =====================================================
+          Certificate 6 - Digital Body Language
+          ===================================================== */}
+
+            <div className="certificate-card">
+              <div className="certificate-image-wrapper">
+                <img
+                  src="/certificates/linkedin-digital-body-language.png"
+                  alt="Digital Body Language Certificate"
+                />
+              </div>
+
+              <div className="certificate-content">
+                <span className="certificate-category">
+                  Professional Communication
+                </span>
+
+                <h3>Digital Body Language</h3>
+
+                <p>LinkedIn Learning</p>
+
+                <span className="certificate-year">2024</span>
+
+                <a
+                  href="/certificates/linkedin-digital-body-language.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="certificate-btn"
+                >
+                  View Certificate ↗
+                </a>
+              </div>
+            </div>
+
+            {/* =====================================================
+          Certificate 7 - Google Cloud
+          ===================================================== */}
+
+            <div className="certificate-card">
+              <div className="certificate-image-wrapper">
+                <img
+                  src="/certificates/google-cloud-compute.png"
+                  alt="Google Cloud Compute Skill Badge"
+                />
+              </div>
+
+              <div className="certificate-content">
+                <span className="certificate-category">Cloud Computing</span>
+
+                <h3>The Basics of Google Cloud Compute</h3>
+
+                <p>Google Cloud</p>
+
+                <span className="certificate-year">
+                  Skill Badge • Introductory
+                </span>
+
+                <a
+                  href="/certificates/google-cloud-compute.png"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="certificate-btn"
+                >
+                  View Certificate ↗
+                </a>
+              </div>
+            </div>
+
+            {/* =====================================================
+          Certificate 8 - GenAI Study Jam
+          ===================================================== */}
+
+            <div className="certificate-card">
+              <div className="certificate-image-wrapper">
+                <img
+                  src="/certificates/genai-study-jam-completion.png"
+                  alt="GenAI Study Jam Completion Certificate"
+                />
+              </div>
+
+              <div className="certificate-content">
+                <span className="certificate-category">Generative AI</span>
+
+                <h3>GenAI Study Jam 2024</h3>
+
+                <p>Google Developers Group — JJMCOE</p>
+
+                <span className="certificate-year">
+                  GenAI Labs & Skill Badges • 2024
+                </span>
+
+                <a
+                  href="/certificates/genai-study-jam-completion.png"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="certificate-btn"
+                >
+                  View Certificate ↗
+                </a>
+              </div>
+            </div>
+
+            {/* =====================================================
+          Certificate 9 - NxtWave AI Workshop
+          ===================================================== */}
+
+            <div className="certificate-card">
+              <div className="certificate-image-wrapper">
+                <img
+                  src="/certificates/nxtwave-ai-workshop.png"
+                  alt="AI for Students Workshop Certificate"
+                />
+              </div>
+
+              <div className="certificate-content">
+                <span className="certificate-category">
+                  Artificial Intelligence
+                </span>
+
+                <h3>AI for Students: Build Your Own Generative AI Model</h3>
+
+                <p>NxtWave</p>
+
+                <span className="certificate-year">Workshop • 2024</span>
+
+                <a
+                  href="/certificates/nxtwave-ai-workshop.png"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="certificate-btn"
+                >
+                  View Certificate ↗
+                </a>
+              </div>
+            </div>
+
+            {/* =====================================================
+          Certificate 10 - Central Coding Club
+          ===================================================== */}
+
+            <div className="certificate-card">
+              <div className="certificate-image-wrapper">
+                <img
+                  src="/certificates/central-coding-club.png"
+                  alt="Central Coding Club Certificate"
+                />
+              </div>
+
+              <div className="certificate-content">
+                <span className="certificate-category">Coding</span>
+
+                <h3>Central Coding Club Under Guest Lecture</h3>
+
+                <p>Central Coding Club</p>
+
+                <span className="certificate-year">
+                  2024 • Passing Score: 100%
+                </span>
+
+                <a
+                  href="/certificates/central-coding-club.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="certificate-btn"
+                >
+                  View Certificate ↗
+                </a>
+              </div>
+            </div>
+
+            {/* =====================================================
+          Certificate 11 - GenAI Top Performer
+          ===================================================== */}
+
+            <div className="certificate-card">
+              <div className="certificate-image-wrapper">
+                <img
+                  src="/certificates/genai-study-jam-top-performer.png"
+                  alt="GenAI Study Jam Top Performer Certificate"
+                />
+              </div>
+
+              <div className="certificate-content">
+                <span className="certificate-category">Generative AI</span>
+
+                <h3>GenAI Study Jam — Top Performer</h3>
+
+                <p>Google Developers Group — JJMCOE</p>
+
+                <span className="certificate-year">Top Performer • 2024</span>
+
+                <a
+                  href="/certificates/genai-study-jam-top-performer.png"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="certificate-btn"
+                >
+                  View Certificate ↗
+                </a>
+              </div>
+            </div>
+
+            {/* 
+            =====================================================
+          Certificate 12 - Shivaji University Rank
+          ===================================================== */}
+
+            <div className="certificate-card">
+              <div className="certificate-image-wrapper">
+                <img
+                  src="/certificates/shivaji-university-rank.jpg"
+                  alt="Shivaji University Merit Rank Certificate"
+                />
+              </div>
+
+              <div className="certificate-content">
+                <span className="certificate-category">
+                  Academic Achievement
+                </span>
+
+                <h3>Shivaji University Merit Rank - 2nd Year</h3>
+
+                <p>Dr. J. J. Magdum College of Engineering</p>
+
+                <span className="certificate-year">
+                  SUK Examination 2023–24
+                </span>
+
+                <a
+                  href="/certificates/shivaji-university-rank.jpg"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="certificate-btn"
+                >
+                  View Certificate ↗
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Achievements Section */}
+      <section id="achievements" className="section achievements-section">
+        <div className="achievements-container">
+          <p className="section-subtitle">MY ACHIEVEMENTS</p>
+
+          <h2 className="section-title">Achievements</h2>
+
+          <p className="achievements-intro">
+            Academic recognitions and notable achievements that highlight my
+            dedication, consistency, and continuous learning.
+          </p>
+
+          <div className="achievements-grid">
+            {/* Achievement 1 */}
+            <div className="achievement-card">
+              <div className="achievement-icon">🥇</div>
+
+              <div className="achievement-content">
+                <span className="achievement-category">
+                  Academic Achievement
+                </span>
+
+                <h3>Shivaji University Merit / Rank — 2nd Year</h3>
+
+                <p>
+                  Recognized for academic performance and secured a merit rank
+                  in the Second Year of B.Tech Information Technology.
+                </p>
+
+                <span className="achievement-year">
+                  Shivaji University • 2nd Year
+                </span>
+              </div>
+            </div>
+
+            {/* Achievement 2 */}
+            <div className="achievement-card">
+              <div className="achievement-icon">🏅</div>
+
+              <div className="achievement-content">
+                <span className="achievement-category">
+                  Academic Achievement
+                </span>
+
+                <h3>Shivaji University Rank 8 — Overall B.Tech</h3>
+
+                <p>
+                  Secured Rank 8 in Shivaji University based on overall academic
+                  performance from First Year through Fourth Year of B.Tech
+                  Information Technology.
+                </p>
+
+                <span className="achievement-year">
+                  1st Year → 4th Year • Shivaji University
+                </span>
+              </div>
+            </div>
+
+            {/* Achievement 3 */}
+            <div className="achievement-card">
+              <div className="achievement-icon">🏆</div>
+
+              <div className="achievement-content">
+                <span className="achievement-category">Generative AI</span>
+
+                <h3>GenAI Study Jam — Top Performer</h3>
+
+                <p>
+                  Recognized as a Top Performer during GenAI Study Jam 2024,
+                  demonstrating active participation and learning in Generative
+                  AI.
+                </p>
+
+                <span className="achievement-year">
+                  Google Developers Group — JJMCOE • 2024
+                </span>
+              </div>
+            </div>
+
+            {/* Achievement 4 */}
+            <div className="achievement-card">
+              <div className="achievement-icon">🎓</div>
+
+              <div className="achievement-content">
+                <span className="achievement-category">Generative AI</span>
+
+                <h3>GenAI Labs & Skill Badges</h3>
+
+                <p>
+                  Successfully completed GenAI Labs and earned skill badges as
+                  part of GenAI Study Jam 2024.
+                </p>
+
+                <span className="achievement-year">
+                  Google Developers Group — JJMCOE • 2024
+                </span>
               </div>
             </div>
           </div>
