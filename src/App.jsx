@@ -28,8 +28,6 @@ function App() {
 
           <a href="#achievements">Achievements</a>
           <a href="#contact">Contact</a>
-
-          
         </div>
       </nav>
 
@@ -434,7 +432,7 @@ function App() {
 
                 <div className="project-buttons">
                   <a
-                    href="https://www.youtube.com"
+                    href="https://github.com/akash274545/Smart-Attendance-Marking-System-Deploy"
                     className="project-btn primary-project-btn"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -443,7 +441,7 @@ function App() {
                   </a>
 
                   <a
-                    href="https://www.youtube.com"
+                    href="https://github.com/akash274545/Smart-Attendance-Marking-System-Deploy"
                     className="project-btn secondary-project-btn"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -537,7 +535,7 @@ function App() {
 
                 <div className="project-buttons">
                   <a
-                    href="https://pet-care-one.vercel.app"
+                    href="https://github.com/akash274545/PetFodie_Web"
                     className="project-btn primary-project-btn"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -698,7 +696,7 @@ function App() {
 
                 <div className="project-buttons">
                   <a
-                    href="https://github.com/akash274545/meal-tracker"
+                    href="https://meal-tracker-19f45.web.app/"
                     className="project-btn primary-project-btn"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -761,7 +759,7 @@ function App() {
 
                 <div className="project-buttons">
                   <a
-                    href="YOUR_LIVE_PORTFOLIO_LINK"
+                    href="https://akash-n-portfolio.netlify.app"
                     className="project-btn primary-project-btn"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -770,7 +768,7 @@ function App() {
                   </a>
 
                   <a
-                    href="YOUR_GITHUB_PORTFOLIO_REPOSITORY"
+                    href="https://github.com/akash274545/akash-portfolio"
                     className="project-btn secondary-project-btn"
                     target="_blank"
                     rel="noopener noreferrer"
