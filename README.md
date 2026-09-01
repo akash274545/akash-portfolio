@@ -2,6 +2,10 @@
 # 🌐 Akash Narayankar — Personal Portfolio
 
 > A modern, responsive personal portfolio website showcasing my skills, projects, education, and professional profile.
+## 🌐 Live Portfolio
+
+🚀 **Visit my portfolio:**  
+https://akash-n-portfolio.netlify.app
 
 
 ---
